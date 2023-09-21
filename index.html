@@ -18,36 +18,186 @@
 
 <body>
 	<div id="side"> </div>
+
+	
 	<div class="practicearea">
+		<div class = "practice">
+			<h1> September 20 - HTML 5 Features</h1>
+			<h2>More Form Practice</h2>
+			<form action="">
+				<p>Email*<input type="email" name="email" placeholder="xxxx@xxx" required></p>
+				<p>Telephone # <input type="tel" name="telephone" placeholder="xxx-xxx-xxxxx" pattern="\d{3}-\{3}-\d{4}" required></p>
+				<p><input type="submit" value = "Submit"></p>
+			</form>
+		</div>
+		<div class = "practice">
+			<h1>September 13</h1>
+			<table border="1">
+				<tr>
+					<td colspan="2">1</td> <td>2</td>
+				</tr>
+				<tr>
+					<td>4</td> <td>5</td> <td>6</td>
+				</tr>
+				<tr>
+					<td>7</td> <td rowspan="2">8</td> <td>9</td>
+				</tr>
+				<tr>
+					<td>10</td>  <td>12</td>
+				</tr>
+			</table>
+
+			<table border = "1">
+				<tr>
+					<td colspan="4">Temperature Distribution in Jan-Apr 2015 (&deg;F)</td>
+				</tr>
+				<tr>
+					<td>Month</td> <td>High</td> <td>Low</td> <td>Average</td>
+				</tr>
+				<tr>
+					<td>January</td> <td>48</td> <td>36</td> <td>40</td>
+				</tr>
+				<tr>
+					<td>February</td> <td>49</td> <td>37</td> <td rowspan="2">43</td>
+				</tr>
+				<tr>
+					<td>March</td> <td>52</td> <td>39</td>
+				</tr>
+				<tr>
+					<td>April</td> <td>58</td> <td>43</td> <td>47</td>
+				</tr>
+			</table>
+
+			<h2>Form Practice</h2>
+			<form action="">
+			<fieldset>
+				<legend>Fieldset Test</legend>
+				<p>
+					Name: <input type="text" name = "fullname">
+				</p>
+				<p>
+					Password: <input type = "password" name = "pass">
+				</p>
+				<p>
+					<input type = "week" name = "wk">
+				</p>
+				<p>
+					HTML 5 Features
+					<input type="color" name = "color">
+					<input type="date" name="data">
+					<input type="datetime-local" name="datetime">
+				</p>
+	
+				<p>
+					What is your favorite color out of these 3?
+					<input type="checkbox" name = "colors" value="red">Red
+					<input type="checkbox" name = "colors" value="blue">Blue
+					<input type="checkbox" name = "colors" value="green">Green
+				</p>
+				<p>
+					What is your favorite color out of these 3?
+					<input type="radio" name = "colors" value="red">Red
+					<input type="radio" name = "colors" value="blue" checked>Blue
+					<input type="radio" name = "colors" value="green">Green
+				</p>
+				<p>
+					Please enter your feedback:
+				</p>
+				<p>
+					<textarea name="feedback" id="" cols="30" rows="10">No comment</textarea>
+				</p>
+				<p> Select your favorite browser:
+					<select name="browser" size="4" multiple>
+						<option value="safari">Safari</option>
+						<option value="chrome">Chrome</option>
+						<option>Firefox</option>
+						<option value="edge">Edge</option>
+					</select>
+				</p>
+				<p>
+					image button
+					<input type="image" src="img/minus.png">
+					<button> <img src="img/facebook.png" alt="face"></button>
+				</p>
+				<p>
+					<input type = "submit" value = "Submit">
+				</p>
+			</fieldset>
+
+			</form>
+		
+
+		</div>
 		<div class="practice">
-			<h2>August 30 practice</h2>
-			<h3>This is the third header</h3>
-			<h4>This is the fourth header</h4>
-			<p>This is the paragraph format for HTML5</p>
+			<blockquote>I know exactly what i am doing</blockquote>
+			<address>what am i doing rn</address>
+		
+			<ol>
+				<li><a href="https://www.youtube.com/" target = "blank">YouTube (linked to new tab)</a></li>
+				<li><a href="doc/imageMap.html">Image Map</a></li>
+				<li><a href="https://blackboard.sc.edu/ultra/course">Blackboard</a></li>
+				
+			</ol>
 			
-			<!--dont show up please-->
-			
 
-			
+		</div>
+
+		<div class = "practice">
+			<p>
+				<a href="https://google.com"><img src="img/google.png" alt=""></a>
+			</p>
+			<table border="1">
+				<tr>
+					<td>1</td> <td>2</td> <td>3</td>
+				</tr>
+				<tr>
+					<td>4</td> <td>5</td> <td>6</td>
+				</tr>
+				<tr>
+					<td>7</td> <td>8</td> <td>9</td>
+				</tr>
+				<tr>
+					<td>10</td> <td>11</td> <td>12</td>
+				</tr>
+			</table>
+
 
 		</div>
 
 
 		<div class="practice">
+			<ol> 
+				<li>Inline Elements
+					<ul>
+						<li> &lt; img &gt; </li>
+						<li> &lt; br &gt; </li>
+						<li> &lt; strong &gt; </li>
+					</ul></li>
+				<li> Block Level Elements
+					<ul>
+						<li> &lt; ol &gt; </li>
+						<li> &lt; li &gt; </li>
+						<li> &lt; p &gt; </li>
+					</ul></li>
+			</ol>
 
+			<p>This is block level <b> element</b>. del is an inline <del>element</del>. </p>
+
+			How about image? <img src="img/puppy.jpg" alt="Picture of dog">
 		</div>
 
-
-		<div class="practice">
-
+		<div class = "practice">
+			<ol>
+				<li>Facebook
+					<ul>
+						<li>Instagram</li>
+						<li>Threads</li>
+					</ul></li>
+				<li>Twitter</li>
+			</ol>
 
 		</div>
-
-		<div class="practice">
-
-
-		</div>
-
+		
 	</div>
 
 </body>
